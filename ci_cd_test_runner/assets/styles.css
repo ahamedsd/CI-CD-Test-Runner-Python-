@@ -1,0 +1,82 @@
+/* Cyberpunk theme for HTML report */
+body {
+    background-color: #0f0f1a;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00fffc;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffff;
+}
+
+p {
+    color: #00ffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #00fffc;
+    text-align: left;
+}
+
+th {
+    background-color: #1a1a2e;
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+tr:nth-child(even) {
+    background-color: #10101f;
+}
+
+tr:hover {
+    background-color: #1a1a40;
+}
+
+/* Pass / Fail colors */
+td.passed {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+td.failed {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+td.skipped {
+    color: #ffff00;
+    font-weight: bold;
+}
+
+/* Chart container */
+#chart-container {
+    width: 400px;
+    height: 250px;
+    margin: 20px auto;
+}
+
+/* Buttons (if any) */
+button {
+    background-color: #ff00ff;
+    color: #0f0f1a;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00ffff;
+    color: #000000;
+}

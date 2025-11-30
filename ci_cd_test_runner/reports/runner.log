@@ -1,0 +1,39 @@
+2025-11-29 23:48:02,072 | INFO | Starting Test Runner…
+2025-11-29 23:48:02,099 | INFO | Executing: C:\Users\musha\AppData\Local\Programs\Python\Python314\python.exe -m pytest tests\test_math.py tests\test_sample_one.py tests\test_sample_two.py --maxfail=0 --disable-warnings --html reports\latest.html --self-contained-html
+2025-11-29 23:48:02,268 | DEBUG | stdout:
+
+2025-11-29 23:48:02,269 | DEBUG | stderr:
+C:\Users\musha\AppData\Local\Programs\Python\Python314\python.exe: No module named pytest
+
+2025-11-29 23:48:02,269 | INFO | Exit code: 1
+2025-11-29 23:48:02,269 | INFO | New report generated: reports\latest.html
+2025-11-29 23:48:02,270 | INFO | Runner finished with exit code 1
+2025-11-29 23:54:56,848 | INFO | Starting Test Runner…
+2025-11-29 23:54:56,850 | INFO | Executing: C:\Users\musha\AppData\Local\Programs\Python\Python314\python.exe -m pytest tests\test_math.py tests\test_sample_one.py tests\test_sample_two.py --maxfail=0 --disable-warnings --html reports\latest.html --self-contained-html
+2025-11-29 23:54:56,903 | DEBUG | stdout:
+
+2025-11-29 23:54:56,903 | DEBUG | stderr:
+C:\Users\musha\AppData\Local\Programs\Python\Python314\python.exe: No module named pytest
+
+2025-11-29 23:54:56,903 | INFO | Exit code: 1
+2025-11-29 23:54:56,903 | INFO | New report generated: reports\latest.html
+2025-11-29 23:54:56,903 | INFO | Runner finished with exit code 1
+2025-11-29 23:58:39,353 | INFO | Starting Test Runner…
+2025-11-29 23:58:39,354 | INFO | Executing: C:\Users\musha\AppData\Local\Programs\Python\Python314\python.exe -m pytest tests\test_math.py tests\test_sample_one.py tests\test_sample_two.py --maxfail=0 --disable-warnings --html reports\latest.html --self-contained-html
+2025-11-29 23:58:41,763 | DEBUG | stdout:
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.0.1, pluggy-1.6.0
+rootdir: C:\Users\musha\OneDrive\Desktop\ci_cd_test_runner
+plugins: html-4.1.1, metadata-3.1.1
+collected 2 items
+
+tests\test_math.py ..                                                    [100%]
+
+- Generated html report: file:///C:/Users/musha/OneDrive/Desktop/ci_cd_test_runner/reports/latest.html -
+============================== 2 passed in 0.05s ==============================
+
+2025-11-29 23:58:41,763 | DEBUG | stderr:
+
+2025-11-29 23:58:41,763 | INFO | Exit code: 0
+2025-11-29 23:58:41,763 | INFO | New report generated: reports\latest.html
+2025-11-29 23:58:41,763 | INFO | Runner finished with exit code 0

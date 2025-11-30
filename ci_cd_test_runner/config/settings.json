@@ -1,0 +1,7 @@
+{
+  "tests_dir": "tests",
+  "reports_dir": "reports",
+  "report_name": "latest.html",
+  "archive_dir": "reports/archive",
+  "pytest_options": ["--maxfail=0", "--disable-warnings"]
+}
