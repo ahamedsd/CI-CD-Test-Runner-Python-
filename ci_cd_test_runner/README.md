@@ -1,4 +1,5 @@
 Overview
+
 TestPilot CI Runner is a simple Python-based tool that automatically discovers and executes unit tests inside a project. It is designed to make testing feel effortless, especially when the project begins to grow and you no longer want to run individual test files manually. The tool gathers all tests, runs them at once, and produces a clear HTML report showing which parts of the code are working and which need attention.
 
 This project is intended for learners and intermediate Python developers who want a gentle introduction to automation testing and basic DevOps-style workflows.
@@ -48,4 +49,5 @@ This project can grow in many directions. Here are some ideas if you want to ext
 • Improve the HTML report design or add charts showing test history.
 
 Summary
+
 TestPilot CI Runner gives you a lightweight, easy-to-understand testing workflow. It helps you automate your tests, generate readable reports, and keep track of what is happening inside your project. It’s simple enough for beginners but flexible enough to evolve into a more serious automation tool.
